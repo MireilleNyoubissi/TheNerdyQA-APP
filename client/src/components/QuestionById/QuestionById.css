@@ -1,0 +1,24 @@
+.questionByIdStyle {
+	margin-top: 50px;
+}
+
+.questionByIdStyle span{
+	margin-right: 1rem;
+	font-weight: bold;
+}
+
+.questionByIdStyle p{
+	text-align: justify;
+}
+
+.questionByIdStyle h6{
+	color: darkgoldenrod;
+}
+
+.questionByIdStyle h4{
+	color: darkkhaki;
+}
+
+img {
+	max-width: max-content;
+}

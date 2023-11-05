@@ -1,0 +1,47 @@
+.replyFormStyle {
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	position: -webkit-sticky; /* Safari */
+ 	position: sticky;
+}
+
+.reply-btn {
+	width: 20%;
+	border: none;
+	margin: 1.2rem 0;
+	background-color: chocolate;
+	color: white;
+}
+
+.replyFormStyle input {
+	margin: 1rem 0;	
+	max-width: 100%;
+}
+
+.replyFormStyle p {
+	text-align: justify;
+}
+
+.App-header {
+   background-color: #282c34;
+   min-height: 5vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: orange;
+   margin-bottom: 5vh;
+   text-align: center;
+ }
+
+ .ql-toolbar.ql-snow {
+	width: inherit;
+ }
+
+ .ql-container.ql-snow {
+	width: auto;
+ }
+
+ 

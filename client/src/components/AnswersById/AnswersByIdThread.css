@@ -1,0 +1,62 @@
+.answersFormat {
+	border-left: 3px solid sienna;
+	scrollbar-color: white;
+    scrollbar-width: thin;
+	scrollbar-color: white;
+}
+
+.answersFormat::-webkit-scrollbar {
+	background-color: AliceBlue;
+}
+.answersFormat::-webkit-scrollbar-button {
+	background-color: beige;
+}
+
+.answersFormat::-webkit-scrollbar-thumb {
+	background-color: beige;
+}
+
+.answer-link {
+	text-align: left;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: Sienna;
+}
+
+.answer-link:hover {
+	text-align: left;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: rgb(233, 177, 73);
+}
+
+.display {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	p .ql-syntax {
+		width: 100%;
+		overflow: visible;
+		word-break: break-word;
+	}
+
+	p {
+		width: 100%;
+	}
+
+	.search-input {
+		max-width: auto;
+		background-color: sandybrown;
+		overflow: hidden;
+	}
+	
+	.search-div input::placeholder {
+		color: #ddd;
+	}
+
+	.search-div {
+		display: block;
+		 max-width: 100%;
+	}  
+}

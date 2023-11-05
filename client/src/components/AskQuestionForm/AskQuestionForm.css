@@ -1,0 +1,129 @@
+.askQuestionStyle {
+    max-width: 100%;
+    min-height: 80vh;
+} 
+
+.askQuestionStyle label{
+    display: block;
+    color: black;
+	max-width: 100%;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+}
+
+.askQuestionStyle textarea {
+    border: 1px solid #ccc; 
+    resize: none;
+}
+
+.cancelQtn-btn {
+    background-color: #ccc;
+    border: none;
+    margin: 1rem 0.5rem;
+}
+.askQtn-btn:hover,
+.askQtn-btn:focus {
+    background-color: white;
+    border: 2px solid rgb(218, 74, 22);
+    color:rgb(9, 9, 42);
+    margin: 1rem 0.5rem;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.cancelQtn-btn:active,
+.cancelQtn-btn:hover,
+.cancelQtn-btn:focus {
+    background-color: darkslategray;
+    color: white; 
+    border:none;
+    margin: 1rem 0.5rem;
+}
+
+
+.askQtn-btn:active,
+.askQtn-btn {
+    background-color: rgb(218, 74, 22);
+    color: white; 
+    border:none;
+    margin: 1rem 0.5rem;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.btn-wrapper {
+    display:flex;
+}
+
+
+
+.hide {
+    display: none;
+}
+
+.askQuestionStyle input::placeholder,
+.askQuestionStyle textarea::placeholder,
+.tag-input::placeholder {
+    color: #ccc;
+}
+
+.askQuestionStyle:-ms-textarea-placeholder,
+.askQuestionStyle:-ms-input-placeholder,
+.tag-input:-ms-input-placeholder { 
+ color: #ccc;
+}
+
+.askQuestionStyle::-ms-textarea-placeholder,
+.askQuestionStyle::-ms-input-placeholder,
+.tag-input::-ms-input-placeholder { 
+    color: #ccc;
+}
+
+
+.ql-toolbar { 
+    overflow-wrap: break-word; 
+    background-color: beige;
+}
+
+.ql-snow {
+    resize: none;
+    height: auto;
+    width: 50vw;
+
+}
+
+.ql-container {   
+    overflow-wrap: break-word; 
+    overflow-y: scroll;
+    background-color: white;
+}
+
+
+div.ql-editor {
+    display: block;
+    align-items: center;
+    width: auto;
+    overflow-x: hidden;
+	word-break: break-all;
+}
+
+div.ql-editor p {
+    max-width: fit-content;
+}
+
+div.ql-editor img {
+    max-width: 100%;
+}
+
+div.ql-editor.ql-blank img {
+    max-width: 100%;
+}
+
+
+.askQuestionStyle i {
+    color: maroon;
+    opacity: 0.4;
+    font-size: 0.8rem;
+}
+

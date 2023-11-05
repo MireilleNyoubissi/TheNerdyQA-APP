@@ -1,0 +1,99 @@
+.topNav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.tent {
+  margin-left: 5rem;
+  margin-right: 2rem;
+}
+.topNav-item {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.topNav-item:hover {
+  background-color: #ddd;
+  text-decoration: none;
+  height: 60px;
+  color: black;
+}
+
+.topNav-item span {
+  font-size: 1.2rem;
+  color: red;
+}
+
+.fufuf:hover, .fufuf:active {
+  background-color: rgba(255, 0, 0, 0.232);
+  color: #ccc;
+}
+
+.topNav-item span:hover {
+  color: #ccc;
+}
+
+.topNav .icon {
+  display: none;
+}
+
+.logo {
+	height: 60px;
+}
+
+.nav-logo {
+    float: left;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topNav-item:not(:first-child) {display: none;}
+  .topNav-item.icon {
+    float: right;
+    display: block;
+  }
+  .tent {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topNav.responsive {position: relative;}
+  .topNav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.search-icon {
+  display: none;
+}
+
+.search-input {
+  max-width: auto;
+  background-color: sandybrown;
+  overflow: hidden;
+  
+}
+
+.search-input:active {
+  background-color: beige;  
+}
+.search-div input::placeholder {
+  color: darkslategray;
+}
+.search-div {
+  max-width: 100%;
+}

@@ -1,0 +1,63 @@
+.tag-input {
+    max-width: 50%;
+    border: none !important;
+    flex: 1;
+    outline: none !important;
+    font-size: 1rem;
+
+}
+
+.tag-input::placeholder {
+    color: #ccc;
+}
+
+.tag-input:-ms-input-placeholder { 
+ color: #ccc;
+}
+
+.tag-input::-ms-input-placeholder { 
+    color: #ccc;
+}
+
+.tag-card {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+
+    
+}
+
+.tag-container {
+    min-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+    min-height: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 25px;
+    margin: 2px 5px 2px 0px;
+    background-color: beige;
+    color:#282c34;    
+}
+
+
+.tag span {
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: beige;
+    color:#282c34;
+    font-size: 0.87rem;
+} 

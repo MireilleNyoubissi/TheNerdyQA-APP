@@ -1,11 +1,106 @@
-.logo {
-	width: 100px;
+*{
+	box-sizing: border-box;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
 }
 
-.message {
-	color: blue;
+.container {
+	margin-top: 40px;
+	grid-area: content;
+	min-height: calc(100vh - 140px);
 }
 
-.message:hover {
-	background-color: yellow;
+@media (min-width: 40.0625em) {
+	.container {
+		margin-right: 30px;
+      margin-left: 30px;
+	}
+	
+  }
+  @media (min-width: 1020px) {
+	.container {
+		margin-right: auto;
+    margin-left: auto;
+	}
+    
+  }
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
 }
+
+.main {
+	background-color: white;
+}
+ 
+label, input {
+	display: block;
+	size: 50px;
+	width: 100%;
+	margin: 10px;
+	
+}
+
+label {
+	color: slategray;
+	float: left;
+	font-size: 25px;
+}
+
+input {
+	height: 30px;
+	font-size: 20px;
+} 
+
+h1 {
+	color: sandybrown;
+	padding: 0.5rem;
+
+}
+
+.main-title-p {
+	color: lightgray;
+	padding-top: 0;
+}
+
+form {
+	max-width: 600px;
+	margin: 20px auto auto 0;
+	padding: auto;
+}
+
+.questionsDiv {	
+	border: none;
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.main-title-box {
+	width: 40%;
+	margin: 10vh auto 3rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color:#282c34;
+}
+
+html::-webkit-scrollbar {
+ background-color: #ccc;
+}
+
+html::-webkit-scrollbar-button {
+ background-color: Brown;
+
+}
+
+html::-webkit-scrollbar-thumb {
+ background-color: Brown;
+
+} 

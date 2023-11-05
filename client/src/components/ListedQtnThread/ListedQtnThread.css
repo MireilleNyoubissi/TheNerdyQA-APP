@@ -1,0 +1,85 @@
+.listedQtnThreadFormat button, 
+.listedQtnThreadFormat button:hover, 
+.listedQtnThreatFormat button:focus {
+  outline: none;
+}
+
+.listedQtnThreadFormat button {
+  border: none; 
+  padding: 0;
+
+}
+
+
+.questionStyle:hover{
+	background-color: #ccc;
+
+}
+
+.listedQtnThreadFormat {
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: thin;
+
+}
+.listedQtnThreadFormat::-webkit-scrollbar {
+ background-color: #ccc;
+
+}
+
+.listedQtnThreadFormat::-webkit-scrollbar-button {
+ background-color: #282c34;
+
+}
+
+.listedQtnThreadFormat::-webkit-scrollbar-thumb {
+ background-color: #282c34;
+
+}
+
+.question-box {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+.question-box:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  min-height: auto;
+}
+.edit-btn {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+}
+
+.delete-btn {
+  padding: 0.3rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+	p, pre.ql-syntax {
+		width: 100%;
+		overflow: visible;
+	}
+
+  img {
+    width: 100%;
+  }
+  
+}
+
+
